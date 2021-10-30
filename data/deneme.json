@@ -1,14 +1,351 @@
 [
+
     {
-        "kelime": "ahmet",
-        "aciklama": "bir öğretmendir"
-      },
-      {
-        "kelime": "reyhan",
-        "aciklama": "ev hanımıdır"
-      },
-      {
-        "kelime": "elif",
-        "aciklama": "ahmet ile reyhanın kızıdır"
-      }
+      "kelime": "incrementally",
+      "aciklama": "kademeli"
+    },
+    {
+      "kelime": "adoptable",
+      "aciklama": "kabul edilebilir"
+    },
+    {
+      "kelime": "means",
+      "aciklama": "anlamı"
+    },
+    {
+      "kelime": "integrated",
+      "aciklama": "enteger"
+    },
+    {
+      "kelime": "depending",
+      "aciklama": "bağlı"
+    },
+    {
+      "kelime": "requirements",
+      "aciklama": "gereksinim"
+    },
+    {
+      "kelime": "primary",
+      "aciklama": "öncelik"
+    },
+    {
+      "kelime": "ways of",
+      "aciklama": "ile ilgili"
+    },
+    {
+      "kelime": "as",
+      "aciklama": "olarak"
+    },
+    {
+      "kelime": "official",
+      "aciklama": "resmi"
+    },
+    {
+      "kelime": "scaffold",
+      "aciklama": "iskele"
+    },
+    {
+      "kelime": "provides",
+      "aciklama": "sağlar"
+    },
+    {
+      "kelime": "workflow",
+      "aciklama": "iş akışı"
+    },
+    {
+      "kelime": "Release",
+      "aciklama": "yayınlanmış"
+    },
+    {
+      "kelime": "each",
+      "aciklama": "her biri"
+    },
+    {
+      "kelime": "available",
+      "aciklama": "mevcut"
+    },
+    {
+      "kelime": "Currently",
+      "aciklama": "şu anda"
+    },
+    {
+      "kelime": "still",
+      "aciklama": "hala"
+    },
+    {
+      "kelime": "recommend",
+      "aciklama": "önermek"
+    },
+    {
+      "kelime": "also",
+      "aciklama": "ayrıca"
+    },
+    {
+      "kelime": "allowing",
+      "aciklama": "izin vermek"
+    },
+    {
+      "kelime": "inspect",
+      "aciklama": "incelemek"
+    },
+    {
+      "kelime": "debug",
+      "aciklama": "hata ayıklamak"
+    },
+    {
+      "kelime": "purposes",
+      "aciklama": "amaçlı"
+    },
+    {
+      "kelime": "avoid",
+      "aciklama": "kaçınmak"
+    },
+    {
+      "kelime": "relevant",
+      "aciklama": "ilgili"
+    },
+    {
+      "kelime": "own",
+      "aciklama": "kendi"
+    },
+    {
+      "kelime": "just like",
+      "aciklama": "tıpkı gibi"
+    },
+    {
+      "kelime": "approach",
+      "aciklama": "yaklaşım/ele almak"
+    },
+    {
+      "kelime": "browsed",
+      "aciklama": "taramak"
+    },
+    {
+      "kelime": "various",
+      "aciklama": "çeşitli"
+    },
+    {
+      "kelime": "explained",
+      "aciklama": "açıklama"
+    },
+    {
+      "kelime": "both",
+      "aciklama": "ikisini birden"
+    },
+    {
+      "kelime": "typically",
+      "aciklama": "genellikle"
+    },
+    {
+      "kelime": "build",
+      "aciklama": "derlemesi"
+    },
+    {
+      "kelime": "production",
+      "aciklama": "üretim"
+    },
+    {
+      "kelime": "recommended",
+      "aciklama": "önerilen"
+    },
+    {
+      "kelime": "scale",
+      "aciklama": "ölçek"
+    },
+    {
+      "kelime": "nicely",
+      "aciklama": "güzel"
+    },
+    {
+      "kelime": "bundlers",
+      "aciklama": "paketleyiciler"
+    },
+    {
+      "kelime": "such as",
+      "aciklama": "olarak"
+    },
+    {
+      "kelime": "accompanying",
+      "aciklama": "beraberinde"
+    },
+    {
+      "kelime": "replaces",
+      "aciklama": "yerine"
+    },
+    {
+      "kelime": "suitable",
+      "aciklama": "uygun"
+    },
+    {
+      "kelime": "chosen",
+      "aciklama": "seçilmiş"
+    },
+    {
+      "kelime": "bundler",
+      "aciklama": "paketleyici"
+    },
+    {
+      "kelime": "preferred",
+      "aciklama": "tercih edilen"
+    },
+    {
+      "kelime": "ambitious",
+      "aciklama": "iddialı"
+    },
+    {
+      "kelime": "scaffolding",
+      "aciklama": "iskele"
+    },
+    {
+      "kelime": "assumes",
+      "aciklama": "varsayar"
+    },
+    {
+      "kelime": "strongly",
+      "aciklama": "şiddetle"
+    },
+    {
+      "kelime": "suggest",
+      "aciklama": "öneri"
+    },
+    {
+      "kelime": "without",
+      "aciklama": "olmadan"
+    },
+    {
+      "kelime": "should",
+      "aciklama": "...meli"
+    },
+    {
+      "kelime": "allows",
+      "aciklama": "izin verir"
+    },
+    {
+      "kelime": "lightning",
+      "aciklama": "çok hızlı"
+    },
+    {
+      "kelime": "Explanation",
+      "aciklama": "açıklama"
+    },
+    {
+      "kelime": "overview",
+      "aciklama": "gözden geçirme/genel bakış"
+    },
+    {
+      "kelime": "via",
+      "aciklama": "üzerinden"
+    },
+    {
+      "kelime": "exposes",
+      "aciklama": "ortaya çıkarır"
+    },
+    {
+      "kelime": "compilation",
+      "aciklama": "derleme"
+    },
+    {
+      "kelime": "so",
+      "aciklama": "bu yüzden"
+    },
+    {
+      "kelime": "contains",
+      "aciklama": "içerir"
+    },
+    {
+      "kelime": "requires",
+      "aciklama": "gereklilikler"
+    },
+    {
+      "kelime": "pre-compiled",
+      "aciklama": "önceden derlenmiş"
+    },
+    {
+      "kelime": "during",
+      "aciklama": "sırasında"
+    },
+    {
+      "kelime": "step",
+      "aciklama": "adım/basamak"
+    },
+    {
+      "kelime": "Inlines",
+      "aciklama": "hatta"
+    },
+    {
+      "kelime": "internal",
+      "aciklama": "dahili"
+    },
+    {
+      "kelime": "dependencies",
+      "aciklama": "bağımlı"
+    },
+    {
+      "kelime": "same",
+      "aciklama": "benzer"
+    },
+    {
+      "kelime": "ensure",
+      "aciklama": "emin olmak"
+    },
+    {
+      "kelime": "instance",
+      "aciklama": "örnke/durum"
+    },
+    {
+      "kelime": "prod",
+      "aciklama": "ürün"
+    },
+    {
+      "kelime": "meant",
+      "aciklama": "anlamına gelir"
+    },
+    {
+      "kelime": "inlining",
+      "aciklama": "satır içi"
+    },
+    {
+      "kelime": "must",
+      "aciklama": "...meli"
+    },
+    {
+      "kelime": "ship",
+      "aciklama": "göndermek"
+    },
+    {
+      "kelime": "minified",
+      "aciklama": "küçültülmüş"
+    },
+    {
+      "kelime": "rest of",
+      "aciklama": "ile ilgili"
+    },
+    {
+      "kelime": "field",
+      "aciklama": "alan"
+    },
+    {
+      "kelime": "alias",
+      "aciklama": "takma ad"
+    },
+    {
+      "kelime": "server-side",
+      "aciklama": "server tarafı"
+    },
+    {
+      "kelime": "required",
+      "aciklama": "gerekli"
+    },
+    {
+      "kelime": "appropriate",
+      "aciklama": "uygun"
+    },
+    {
+      "kelime": "mounting",
+      "aciklama": "montaj"
+    },
+    {
+      "kelime": "therefore",
+      "aciklama": "öyleyse"
+    }
 ]

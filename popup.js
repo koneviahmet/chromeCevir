@@ -34,14 +34,29 @@ changeColor.addEventListener("click", async () => {
             .then((response) => {
                 Promise.all([response.json()]).then( async value => {
                   for await (const i of value[0]) {
-                    if(txt.search(" "+i.kelime+" ") > 0){
-                      txt = txt.replace(RegExp(`\\b ${i.kelime} \\b`, 'g'), ' ' + i.kelime + ' <b style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 12px; font-weight: normal; color: red;">'+i.aciklama+'</b>')
+                    if(filter(txt, i.kelime)){
+                      txt = txt.replace(RegExp(`\\b ${i.kelime} \\b`, 'g'), ' ' + i.kelime + '<b style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; color: red;">'+i.aciklama+'</b>')
                     }
                   }
 
                   document.body.innerHTML = txt
                 })
             }) 
+
+
+        function filter(txt, kelime){
+          durum = false
+          if(txt.search(" "+kelime+" ") > 0){
+            return true
+          }
+
+          if(txt.search(" "+kelime+".") > 0){
+            return true
+          }
+
+          return durum
+
+        }
 
       },
 
