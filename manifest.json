@@ -1,0 +1,32 @@
+{
+    "name": "Çevir Gelsin",
+    "description": "Çevir gelsin açıklama olacak burada",
+    "version": "1.0",
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "web_accessible_resources": [{
+      "resources": ["data/deneme.json"],
+      "matches": ["<all_urls>"],
+      "extension_ids": []
+    }],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting","<all_urls>","https://*/*","tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "cat.png",
+        "32": "cat.png",
+        "48": "cat.png",
+        "128": "cat.png"
+      }
+    },
+    "icons": {
+      "16": "cat.png",
+      "32": "cat.png",
+      "48": "cat.png",
+      "128": "cat.png"
+    }
+    
+  }

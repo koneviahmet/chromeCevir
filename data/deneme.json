@@ -1,0 +1,14 @@
+[
+    {
+        "kelime": "ahmet",
+        "aciklama": "bir öğretmendir"
+      },
+      {
+        "kelime": "reyhan",
+        "aciklama": "ev hanımıdır"
+      },
+      {
+        "kelime": "elif",
+        "aciklama": "ahmet ile reyhanın kızıdır"
+      }
+]
