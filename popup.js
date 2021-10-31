@@ -31,7 +31,7 @@ let eskiText = ""
                       let kelimeRegex   = "\\b"+kelime[0].toUpperCase()+"?"+kelime[0]+"?"+kelime.substr(1)+"([.,?])? \\b";
                     
 
-                      txt = txt.replace(RegExp(kelimeRegex, 'g'), ' ' + kelime+ '<b style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; color: red;">'+aciklama+'</b> ')
+                      txt = txt.replace(RegExp(kelimeRegex, 'g'), ' ' + kelime+ '<b translate="no" style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; color: red;">'+aciklama+'</b> ')
                     }
                   }
 
