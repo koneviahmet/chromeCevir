@@ -4,7 +4,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "web_accessible_resources": [{
-      "resources": ["data/sozluk.json"],
+      "resources": ["data/sozluk.json", "data/translate.png"],
       "matches": ["<all_urls>"],
       "extension_ids": []
     }],
