@@ -1,11 +1,10 @@
 {
     "name": "Çevir Gelsin",
-    "description": "Çevir gelsin açıklama olacak burada",
+    "description": "data dosyası içinde bulunan sozluk.json dan açıklamaları seçerek ilgili kelimenin yanına yazar.",
     "version": "1.0",
     "manifest_version": 3,
-    "options_page": "options.html",
     "web_accessible_resources": [{
-      "resources": ["data/deneme.json"],
+      "resources": ["data/sozluk.json"],
       "matches": ["<all_urls>"],
       "extension_ids": []
     }],
