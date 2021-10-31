@@ -16,7 +16,15 @@ let eskiText = ""
         await fetch(url)
             .then((response) => {
                 Promise.all([response.json()]).then( async value => {
-                  for await (const i of value[0]) {
+                  let newFilter = []
+                  let json = value[0].filter(i => {
+                      if(!newFilter.includes(i.kelime)){
+                          newFilter.push(i.kelime)
+                          return true
+                      }
+                  })
+                  
+                  for await (const i of json) {
                     if(filter(txt, i.kelime)){
                       let kelime   = i.kelime;
                       let aciklama = i.aciklama;
