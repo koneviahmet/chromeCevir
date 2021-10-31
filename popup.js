@@ -17,7 +17,9 @@ let eskiText = ""
             .then((response) => {
                 Promise.all([response.json()]).then( async value => {
                   let newFilter = []
-                  let json = value[0].filter(i => {
+                  var list = value[0].list;
+
+                  let json = list.filter(i => {
                       if(!newFilter.includes(i.kelime)){
                           newFilter.push(i.kelime)
                           return true
