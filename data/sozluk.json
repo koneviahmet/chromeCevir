@@ -1,6 +1,10 @@
 [
 
     {
+      "kelime": "lint-on-save",
+      "aciklama": "hayda hobba"
+    },
+    {
       "kelime": "incrementally",
       "aciklama": "kademeli"
     },

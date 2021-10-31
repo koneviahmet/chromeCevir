@@ -18,7 +18,12 @@ let eskiText = ""
                 Promise.all([response.json()]).then( async value => {
                   for await (const i of value[0]) {
                     if(filter(txt, i.kelime)){
-                      txt = txt.replace(RegExp(`\\b ${i.kelime} \\b`, 'g'), ' ' + i.kelime + '<b style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; color: red;">'+i.aciklama+'</b>')
+                      let kelime   = i.kelime;
+                      let aciklama = i.aciklama;
+                      let kelimeRegex   = "\\b"+kelime[0].toUpperCase()+"?"+kelime[0]+"?"+kelime.substr(1)+"([.,?])? \\b";
+                    
+
+                      txt = txt.replace(RegExp(kelimeRegex, 'g'), ' ' + kelime+ '<b style="background: #f1f1f1; padding: 3px; border-radius: 3px; font-size: 10px; font-weight: normal; color: red;">'+aciklama+'</b> ')
                     }
                   }
 
