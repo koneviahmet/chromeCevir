@@ -1,6 +1,7 @@
+//https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related
+//core hatasını engellemek için bu eklentiyi kur
+
 let eskiText = ""
-
-
 
   ac.addEventListener("click", async () => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true});
@@ -12,12 +13,14 @@ let eskiText = ""
         eskiText  = document.body.innerHTML;
         let txt   = document.body.innerHTML;
 
-        const url = chrome.runtime.getURL("data/sozluk.json");
+        //const url = chrome.runtime.getURL("data/sozluk.json");
         const img = chrome.runtime.getURL("data/translate.png");
-        console.log(img);
+        const url = "http://localhost/json/index.php?s=h_sozluk&f=sozluk_list_gozat&sinif_id=6&ders_id=7&unite_id=7&etkinlikler_id=60";
+        
         await fetch(url)
             .then((response) => {
                 Promise.all([response.json()]).then( async value => {
+                  console.log("value", value);
                   let newFilter = []
                   var list = value[0].list;
 

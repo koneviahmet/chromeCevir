@@ -11,7 +11,7 @@
     "background": {
       "service_worker": "background.js"
     },
-    "permissions": ["storage", "activeTab", "scripting","<all_urls>","https://*/*","tabs"],
+    "permissions": ["storage", "activeTab", "scripting","<all_urls>","https://*/*","http://*/*","tabs","http://localhost/*"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
