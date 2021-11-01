@@ -1,4 +1,5 @@
 //https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related
+//https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=tr&utm_s
 //core hatasını engellemek için bu eklentiyi kur
 
 let eskiText = ""
